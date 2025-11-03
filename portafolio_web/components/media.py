@@ -10,20 +10,30 @@ def media(data: Media) -> rx.Component:
             "mail",
             f"mailto:{data.email}",
             data.email,
-            True
+            True,
+            description="Correo"
+            
         ),
         rx.hstack(
             icon_button(
                 "file-text",
-                data.cv
+                data.cv,
+                description="Ver Cv"
             ),
             icon_button(
                 "github",
-                data.github
+                data.github,
+                description="Ver Github"
             ),
             icon_button(
                 "linkedin",
-                data.likedin
+                data.linkedin,
+                description="Ver Linkedin"
+            ),
+            icon_button(
+                "Instagram",
+                data.instagram,
+                description="Ver Instagram",
             ),
             spacing=Size.SMALL.value
         ),

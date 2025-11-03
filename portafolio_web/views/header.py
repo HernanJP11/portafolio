@@ -9,7 +9,10 @@ def header(data: Data) -> rx.Component:
     return rx.hstack(
         rx.avatar(
             src=data.avatar,
-            size=Size.BIG.value
+            size=Size.BIG_2.value,
+            border="3px solid",
+            border_color="cyan",     
+            box_shadow="0 0 10px cyan" # Efecto glow
         ),
         rx.vstack(
             heading(data.name, True),

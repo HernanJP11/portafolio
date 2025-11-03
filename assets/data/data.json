@@ -1,22 +1,32 @@
 {
     "title": "Hernan Peñaranda | Portafolio",
-    "description": "Soy Hernan, posiblemente el mejor programador de la historia.",
+    "description": "Estudiante de Ingeniería de Sistemas",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Hernan Peñaranda",
-    "skill": "Programador, hacker y el Elegido",
+    "skill": "Ingeniero de Sistemas | Backend Dev",
     "location": " Colombia",
     "media": {
         "email": "hernanmisse11@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "instagram": "https://www.instagram.com/eracoode",
+        "github": "https://github.com/HernanJP11",
+        "linkedin": ""
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Apasionado por el desarrollo backend y la resolución de problemas. Me destaco por mi curiosidad, perseverancia y capacidad para aprender rápidamente nuevas tecnologías. Busco fortalecer mi experiencia profesional creando soluciones eficientes y escalables dentro de equipos de desarrollo comprometidos con la calidad del software.",
+    
     "technologies": [
         {
         "icon": "devicon-python-plain",
         "name": "Python"
+        },
+        {
+        "icon": "devicon-azuresqldatabase-plain",
+        "name": "SQL"
+        },
+        {
+            "icon": "devicon-fastapi-plain",
+            "name": "FastAPI"
         },
         {
             "icon": "devicon-postgresql-plain", 
@@ -33,6 +43,22 @@
         {
             "icon": "devicon-javascript-plain",
             "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-jira-plain",
+            "name": "Jira"
+        },
+        {
+        "icon": "devicon-git-plain",
+        "name": "Git"
+        },
+        {
+            "icon": "devicon-github-original",
+            "name": "GitHub"
+        },
+        {
+            "icon": "devicon-vscode-plain",
+            "name": "VSCode"
         }
     ],
     "experience": [
@@ -67,7 +93,7 @@
                     "name": "Django"
                 }
             ],
-            "image": "/project_1.jpg",
+            "image": "/portafolio.png",
             "url": "https://matrix.fandom.com/wiki/MetaCortex",
             "github": "https://github.com/thomasanderson"
         },
@@ -90,18 +116,18 @@
     "training": [
         {
             "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
+            "title": "Ingeniero De Sistemas",
+            "subtitle": "Universidad de Pamplona",
+            "description": "Formado en la aplicación de principios de computación e ingeniería de software para el análisis, diseño, desarrollo y gestión de soluciones tecnológicas. Capaz de abordar requerimientos de sistemas de información, implementar aplicaciones eficientes y participar en proyectos de desarrollo bajo criterios de calidad, seguridad y escalabilidad.",
+            "date": "2019-08 - Actualidad",
             "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
+            "title": "Curso de Programación con Python - Platzi",
+            "subtitle": "Platzi",
+            "description": "Formación en fundamentos de programación con Python, incluyendo variables, estructuras de control, funciones y manejo de errores. lógica aplicada para resolver problemas con Python.",
+            "date": "",
             "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
         }
     ]

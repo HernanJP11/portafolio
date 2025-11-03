@@ -8,7 +8,7 @@ from portafolio_web.styles.styles import IMAGE_HEIGHT, EmSize, Size
 def info_detail(info: Info) -> rx.Component:
     return rx.flex(
         rx.hstack(
-            icon_badge(info.icon),
+            #icon_badge(info.icon), # icono proyecto
             rx.vstack(
                 rx.text.strong(info.title),
                 rx.text(info.subtitle),
@@ -37,14 +37,16 @@ def info_detail(info: Info) -> rx.Component:
                         info.url != "",
                         icon_button(
                             "link",
-                            info.url
+                            info.url,
+                            description="Ver demo en vivo del proyecto"
                         )
                     ),
                     rx.cond(
                         info.github != "",
                         icon_button(
                             "github",
-                            info.github
+                            info.github,
+                            description="Ver código fuente en GitHub"
                         )
                     )
                 ),

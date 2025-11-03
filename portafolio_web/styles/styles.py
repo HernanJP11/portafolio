@@ -18,7 +18,10 @@ class Size(Enum):
     DEFAULT = "4"    # 16px - Espaciado normal
     MEDIUM = "6"     # 32px - Espaciado medio
     BIG = "8"        # 48px - Espaciado grande
-
+    BIG_2 = "9"
+    
+    
+    
 # Hojas de estilo externas
 STYLESHEETS = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"  # Íconos de tecnologías
